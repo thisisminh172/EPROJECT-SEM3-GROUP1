@@ -18,5 +18,5 @@
 #### You can go to our project page with this [Link](https://github.com/thisisminh172/EPROJECT-SEM3-GROUP1.git)
 
 ### When you clone project from git
-#### Open folder front-end with vs code
-#### run command `npm install` to install library from package.json
+#### 1. Open folder **front-end** with vs code
+#### 2. run command `npm install` to install library from package.json
