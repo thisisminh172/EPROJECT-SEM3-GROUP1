@@ -20,3 +20,4 @@
 ### When you clone project from git
 #### 1. Open folder **front-end** with vs code
 #### 2. run command `npm install` to install library from package.json
+#### 3. run command `npm start` to start front end
