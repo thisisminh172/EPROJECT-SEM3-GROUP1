@@ -12,7 +12,7 @@
 ---
 
 > ### FOLDERS
->> - fornt-end
+>> - front-end
 >> - back-end
 
 #### You can go to our project page with this [Link](https://github.com/thisisminh172/EPROJECT-SEM3-GROUP1.git)
