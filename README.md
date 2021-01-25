@@ -14,6 +14,7 @@
 > ### FOLDERS
 >> - front-end
 >> - back-end
+>> - documents
 
 #### You can go to our project page with this [Link](https://github.com/thisisminh172/EPROJECT-SEM3-GROUP1.git)
 
