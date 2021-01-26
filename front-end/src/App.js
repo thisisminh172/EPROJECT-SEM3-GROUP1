@@ -1,6 +1,8 @@
 import React from 'react';
 import './App.css';
 import './public/css/style.css'
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 
 //start >>> admin-components
 import AdminPage from './components/admin/AdminPage'
@@ -23,7 +25,6 @@ function App() {
           <Route path='/admin' render={() => <AdminPage />} />
           <Route path='/' render={() => <ClientPage />} />
         </Switch>
-
       </div>
     </Router>
 

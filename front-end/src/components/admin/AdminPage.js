@@ -1,7 +1,6 @@
 import React from 'react'
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
 import {useState} from 'react'
-import './style.scss'
 function AdminHome() {
 
     const [sidebarOpen, setSibarOpen] = useState(false);
