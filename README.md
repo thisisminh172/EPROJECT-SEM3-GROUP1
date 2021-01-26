@@ -12,7 +12,7 @@
 ---
 
 > ### FOLDERS
->> - front-end
+>> - front-end (admin & client)
 >> - back-end
 >> - documents
 
