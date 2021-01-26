@@ -1,8 +1,11 @@
 {
     "version": 3,
-    "mappings": "AAAA,AAAA,UAAU,CAAA;EACN,KAAK,EAAE,GAAG;CACb",
+    "mappings": "AEIA,AAAA,kBAAkB,CAAC;EACf,gBAAgB,EALL,OAAO;CASrB;;AALD,AAEI,kBAFc,CAEd,CAAC,CAAA;EACG,KAAK,EAAE,gBAAgB;CAC1B;;ACRL,AAAA,QAAQ,CAAC;EACL,MAAM,EAAE,KAAK;EACb,KAAK,EAAE,IAAI;EACX,KAAK,EAAE,IAAI;CACd",
     "sources": [
-        "style.scss"
+        "style.scss",
+        "client/_clientStyle.scss",
+        "client/_header.scss",
+        "client/_section.scss"
     ],
     "names": [],
     "file": "style.css"
