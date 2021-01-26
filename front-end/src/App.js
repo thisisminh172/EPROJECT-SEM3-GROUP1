@@ -2,10 +2,16 @@ import React from 'react';
 import './App.css';
 import './public/css/style.css'
 
-import Header from './components/Header'
-import Home from './components/Home'
-import About from './components/About'
-import Footer from './components/Footer'
+//start >>> admin-components
+import AdminPage from './components/admin/AdminPage'
+//end >>> admin-components
+//start >>> client-components
+import ClientPage from './components/client/ClientPage'
+// import Header from './components/client/Header';
+// import Footer from './components/client/Footer';
+// import Home from './components/client/Home'
+import About from './components/client/About'
+//end >>> client-components
 
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
 
@@ -13,12 +19,11 @@ function App() {
   return (
     <Router>
       <div className="App">
-        <Header />
         <Switch>
-          <Route path='/' exact component={Home} />
-          <Route path='/about' component={About} />
+          <Route path='/admin' component={AdminPage} />
+          <Route path='/' render={() => <ClientPage />} />
         </Switch>
-        <Footer />
+
       </div>
     </Router>
 
