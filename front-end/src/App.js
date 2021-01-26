@@ -20,7 +20,7 @@ function App() {
     <Router>
       <div className="App">
         <Switch>
-          <Route path='/admin' component={AdminPage} />
+          <Route path='/admin' render={() => <AdminPage />} />
           <Route path='/' render={() => <ClientPage />} />
         </Switch>
 
