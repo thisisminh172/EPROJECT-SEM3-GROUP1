@@ -15,6 +15,7 @@ import About from './components/client/About'
 //end >>> client-components
 
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
+// import {Container, Row, Col} from 'react-bootstrap'
 
 function App() {
   return (
