@@ -1,6 +1,5 @@
 import React from 'react';
 import './App.css';
-import './public/css/style.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 

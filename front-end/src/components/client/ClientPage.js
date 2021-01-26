@@ -1,6 +1,8 @@
 import React from 'react'
 import { Switch, Route } from 'react-router-dom'
-import { Container, Row, Col } from 'react-bootstrap'
+
+import '../../public/css/clientStyle.css'
+
 
 import Header from './Header';
 import Footer from './Footer';
