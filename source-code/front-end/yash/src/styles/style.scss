@@ -1,0 +1,33 @@
+.product-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    .product-item{
+        width: 330px;
+        margin: 2rem 2rem;
+    }
+}
+.card{
+    display: flex;
+    flex-wrap: wrap;
+    .card-title{
+        margin-left: .5rem;
+    }
+    .card-body{
+        width: 100%;
+        // border: 1px solid white;
+       
+    }
+    .card-img-top{
+        height: 350px;
+        width: 100%;
+    }
+    a{
+        color: red;
+    }
+    &:hover{
+        transition:box-shadow .3s;
+        box-shadow: 0 0 5px wheat;
+    }
+    
+}

@@ -1,39 +1,19 @@
-.App {
-  text-align: center;
+/* Remove the navbar's default rounded borders and increase the bottom margin */
+
+.navbar {
+    margin-bottom: 50px;
+    border-radius: 0px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* Remove the jumbotron's default bottom margin */
+
+.jumbotron {
+    margin-bottom: 0;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-float infinite 3s ease-in-out;
-  }
-}
+/* Add a gray background color and some padding to the footer */
 
-.App-header {
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-}
-
-.App-link {
-  color: rgb(112, 76, 182);
-}
-
-@keyframes App-logo-float {
-  0% {
-    transform: translateY(0);
-  }
-  50% {
-    transform: translateY(10px)
-  }
-  100% {
-    transform: translateY(0px)
-  }
+footer {
+    background-color: #f2f2f2;
+    padding: 25px;
 }
