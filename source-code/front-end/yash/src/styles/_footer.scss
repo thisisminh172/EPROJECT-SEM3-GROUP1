@@ -1,0 +1,22 @@
+$black-custom: #222222;
+$honey-glow:#EAB543;
+$honey-glow-shadow:#fbcd68;
+$falling-star: #CAD3C8;
+.client-footer{
+    /* Add a gray background color and some padding to the footer */
+    background-color: $black-custom;
+
+    footer {
+        padding: 25px;
+        ul{
+            list-style-type: none;
+            a{
+                color: $falling-star!important;
+                text-decoration: none;
+            }
+            color: $falling-star!important;
+            display: block;
+            width: 300px;
+        }
+    }
+}

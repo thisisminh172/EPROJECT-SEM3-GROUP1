@@ -1,42 +1,39 @@
 import React from 'react'
+import { Navbar, Nav, Form, Button } from 'react-bootstrap'
 
 function Header() {
     return (
-        <div>
+        <div className="client-header">
             {/* start jumbotron */}
-            <div className="jumbotron">
+            <div className="client-banner jumbotron">
                 <div className="container text-center">
-                    <h1>YASH</h1>
+                    <h1 className="client-banner-logo">YASH</h1>
                     <p>Gems &amp; Jewelleries</p>
                 </div>
             </div>
             {/* end jumbotron */}
             {/* start navbar */}
-            <nav className="navbar navbar-inverse">
-                <div className="container-fluid">
-                    <div className="navbar-header">
-                        <button type="button" className="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-                            <span className="icon-bar" />
-                            <span className="icon-bar" />
-                            <span className="icon-bar" />
-                        </button>
-                        <a className="navbar-brand" href="#">Logo</a>
-                    </div>
-                    <div className="collapse navbar-collapse" id="myNavbar">
-                        <ul className="nav navbar-nav">
-                            <li className="active"><a href="#">Home</a></li>
-                            <li><a href="#">Products</a></li>
-                            <li><a href="#">Deals</a></li>
-                            <li><a href="#">Stores</a></li>
-                            <li><a href="#">Contact</a></li>
-                        </ul>
-                        <ul className="nav navbar-nav navbar-right">
-                            <li><a href="#"><span className="glyphicon glyphicon-user" /> Your Account</a></li>
-                            <li><a href="#"><span className="glyphicon glyphicon-shopping-cart" /> Cart</a></li>
-                        </ul>
-                    </div>
-                </div>
-            </nav>
+            <div className="client-navbar">
+                <Navbar bg="dark" expand="lg">
+                    <Navbar.Brand href="/" className="logo">YASH</Navbar.Brand>
+                    <Navbar.Toggle aria-controls="basic-navbar-nav" />
+                    <Navbar.Collapse id="basic-navbar-nav">
+                        <Nav className="mr-auto">
+                            <Nav.Link href="/"><span className="home-button">Home</span></Nav.Link>
+                            <Nav.Link href="/products">All Jewelleries</Nav.Link>
+                            <Nav.Link href="/products/ring">Rings</Nav.Link>
+                            <Nav.Link href="/products/earring">Earrings</Nav.Link>
+                            <Nav.Link href="/products/pendant">Pendants</Nav.Link>
+                            <Nav.Link href="/about">About Us</Nav.Link>
+                        </Nav>
+                        <Form inline>
+                            <Form.Control type="text" placeholder="Search" htmlSize="45" className="mr-sm-2" />
+                            <Button variant="outline-warning">Search</Button>
+                        </Form>
+                    </Navbar.Collapse>
+                </Navbar>
+            </div>
+
             {/* end navbar */}
 
         </div>

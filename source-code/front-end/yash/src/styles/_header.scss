@@ -1,0 +1,32 @@
+$honey-glow:#EAB543;
+$honey-glow-shadow:#fbcd68;
+$dark-color: #222222;
+.navbar-toggler{
+    background-color: $honey-glow;
+}
+.client-navbar{
+    background-color: $dark-color!important;
+    .logo{
+        color: $honey-glow!important;
+        font-size: 50px;
+        font-weight: 500;
+        margin: .5rem 2rem;
+        line-height: 2rem;
+        &:hover{
+            text-decoration: none;
+        }
+    }
+    a{
+
+        font-size: 1.5rem;
+        color:white!important;
+        &:hover{
+            color: $honey-glow-shadow!important;
+            transition:color .3s;
+        }
+    }
+    
+}
+
+
+
