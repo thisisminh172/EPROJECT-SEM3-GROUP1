@@ -12,6 +12,7 @@ import Home from './components/Home'
 import About from './components/About'
 import Products from './components/Products'
 import NoMatch from './components/NoMatch'
+import Product from './components/Product'
 
 
 function App() {
@@ -23,9 +24,9 @@ function App() {
           <Switch>
             <Route path="/" exact component={Home} />
             <Route path="/about" component={About} />
-            <Route path="/products" exact component={Products} />
-            <Route path="/products/:type" component={Products} />
-            
+            {/* <Route path="/products" exact component={Products}/> */}
+            <Route exact path="/products/:type" component={Products}/>
+            <Route path="/products/:type/:id" component={Product}/>
             <Route path="*" exact component={NoMatch} />
           </Switch>
         </div>

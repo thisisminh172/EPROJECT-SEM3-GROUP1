@@ -1,9 +1,14 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
+import {Route, Link, useRouteMatch, useParams } from 'react-router-dom'
 
 function Products() {
+    let { type } = useParams();
+    let { path, url } = useRouteMatch();
     return (
         <div>
+            this is {type} page
+            the url : {url}
+            the path: {path}
             <div className="">
                 <div className="product-list">
                     <div className="product-item">
@@ -12,7 +17,7 @@ function Products() {
                             <div className="card-body">
                                 <h4 className="card-title">$ 29,435</h4>
                             </div>
-                            <div className="client-hover-product-item"><Link to={"products/id"}>View Details &gt;&gt;</Link></div>
+                            <div className="client-hover-product-item"><Link to={`${url}/1`}>View Details &gt;&gt;</Link></div>
                         </div>
                     </div>
                     <div className="product-item">
@@ -39,7 +44,9 @@ function Products() {
                     </div>
                 </div>
             </div><br />
+            
 
+             
         </div>
     )
 }

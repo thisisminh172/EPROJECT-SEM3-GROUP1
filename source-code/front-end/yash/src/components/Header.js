@@ -20,7 +20,7 @@ function Header() {
                     <Navbar.Collapse id="basic-navbar-nav">
                         <Nav className="mr-auto">
                             <Nav.Link href="/"><span className="home-button">Home</span></Nav.Link>
-                            <Nav.Link href="/products">All Jewelleries</Nav.Link>
+                            <Nav.Link href="/products/all">All Jewelleries</Nav.Link>
                             <Nav.Link href="/products/ring">Rings</Nav.Link>
                             <Nav.Link href="/products/earring">Earrings</Nav.Link>
                             <Nav.Link href="/products/pendant">Pendants</Nav.Link>
