@@ -19,5 +19,9 @@ namespace YashAPI.Models
         [Required(ErrorMessage ="Gold price can not be blank")]
         public float Price { get; set; }
 
+
+        public virtual ICollection<Item> Items { get; set; }
+
+
     }
 }

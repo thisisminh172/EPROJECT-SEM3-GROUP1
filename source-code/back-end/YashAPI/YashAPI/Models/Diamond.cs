@@ -21,5 +21,8 @@ namespace YashAPI.Models
 
         [Required(ErrorMessage ="Diamond price can not be blank")]
         public float Price { get; set; }
+
+        public virtual ICollection<Item> Items { get; set; }
+
     }
 }

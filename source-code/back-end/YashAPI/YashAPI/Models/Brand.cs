@@ -14,5 +14,9 @@ namespace YashAPI.Models
         public int BrandId { get; set; }
         [Required(ErrorMessage ="Brand type can not be blank")]
         public string BrandType { get; set; }
+
+
+        public virtual ICollection<Item> Items { get; set; }
+
     }
 }

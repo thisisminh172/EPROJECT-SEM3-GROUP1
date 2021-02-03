@@ -15,5 +15,8 @@ namespace YashAPI.Models
         [Required(ErrorMessage ="Category Name can not be blank")]
         public string CategoryName { get; set; }//wedding, birthday, gift
 
+        public virtual ICollection<Item> Items { get; set; }
+
+
     }
 }

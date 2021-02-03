@@ -14,5 +14,8 @@ namespace YashAPI.Models
         public int ProductId { get; set; }
         [Required(ErrorMessage ="Product type can not be blank")]
         public string ProductType { get; set; }//ring, chain
+
+        public virtual ICollection<Item> Items { get; set; }
+
     }
 }

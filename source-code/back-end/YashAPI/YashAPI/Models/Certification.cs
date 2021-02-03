@@ -15,5 +15,9 @@ namespace YashAPI.Models
         [Required(ErrorMessage ="Certificate type can not be blank")]
         public string CertifyType { get; set; }
 
+
+        public virtual ICollection<Item> Items { get; set; }
+
+
     }
 }
